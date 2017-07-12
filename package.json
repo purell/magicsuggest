@@ -1,0 +1,19 @@
+{ "name" : "magicsuggest"
+, "version" : "v2.1.4"
+, "description" : "Multiple Selection Combo Box using Bootstrap 3 "
+, "author": "Nicola Bize"
+, "main": "./magicsuggest.js"
+, "bugs" : { "web" : "https://github.com/nicolasbize/magicsuggest/issues" } 
+, "licenses" : [ { "type" : "MIT" } ] 
+, "dependencies" : {
+	"bootstrap": "~3",
+    "jquery": ">= 1.8.3"}
+, "repositories" :
+  [ { "type" : "git"
+    , "url" : "https://github.com/nicolasbize/magicsuggest.git"
+    },
+	{ "type" : "git"
+    , "url" : "https://github.com/purell/magicsuggest.git"
+    }	
+  ]
+}
